@@ -1,7 +1,5 @@
 /*Зона для header--------------*/
 .address {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal; 
     font-size: 18px; 
     line-height: 24.3px; 
     margin: 0;
@@ -26,7 +24,6 @@
 }
 
 .header_links-list {
-    font-family: 'Raleway', sans-serif;
     display: flex; 
     align-items: center;  
     list-style: none;
@@ -84,7 +81,7 @@
 
 /*Зона для cover---------------*/
 
-.cover{
+.cover {
     position: relative;
     width: 100%;
     height: 757px;
@@ -94,8 +91,7 @@
     background-position: center; 
 }
 
-.title h1{
-    font-family: 'Raleway', sans-serif;
+.title h1 {
     line-height: 1.15; 
     letter-spacing: 30%; 
     font-weight: 700;
@@ -104,7 +100,7 @@
     color: white;
 }
 
-.overlay{
+.overlay {
     position: absolute; 
     top: 0;
     left: 0;
@@ -114,26 +110,26 @@
     z-index: 1;
 }
 
-.cover_content{
+.cover_content {
     position: relative;
     z-index: 2; 
     height: 100%; 
 }
 
-.title{
+.title {
     padding-top: 165px;
     padding-left: 50px;
 }
 
-.second_word_in_cover{
+.second_word_in_cover {
     text-align: center;
 }
 
-.thirst_word_in_cover{
+.thirst_word_in_cover {
     text-align: right;
 }
 
-.description{
+.description {
     position: absolute;
     bottom: 51px;
     left: 50px; 
@@ -143,8 +139,7 @@
     align-items: center;
 }
 
-.cover_text{
-    font-family: 'Raleway', sans-serif;
+.cover_text {
     color: white;
     text-transform: uppercase;
     font-size: 22px;
@@ -152,8 +147,7 @@
     word-spacing: 90%; 
 }
 
-.cover_button{
-    font-family: 'Raleway', sans-serif;
+.cover_button {
     font-size: 22px; /* Размер подгоните по макету, если он отличается */
     font-weight: 400;
     text-transform: uppercase;
@@ -174,7 +168,7 @@
 
 /*Зона для lots----------------*/
 
-.lots{
+.lots {
     width: 1052px; 
     margin: 0 auto; 
     margin-top: 180px;  
@@ -185,9 +179,8 @@
     padding: 0; 
 }
 
-.lots__heading{
+.lots__heading {
     font-weight: 700;
-    font-family: 'Raleway', sans-serif;
     font-size: 40px;
     text-transform: uppercase;
     text-decoration: bold;
@@ -243,7 +236,6 @@
 
 .card__title {
     font-size: 22px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
@@ -253,7 +245,6 @@
 
 .card__text {
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     margin: 0;
     /* Добавь свои стили из Figma */
